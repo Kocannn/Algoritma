@@ -46,11 +46,11 @@ Sorting adalah salah satu operasi mendasar dalam ilmu komputer yang bertujuan un
 
 ### 1. Merge Sort
 - **Kompleksitas dalam Notasi Big-O dan Big-Theta**:
-  - **Best Case (\( \Theta(n \cdot \log n) \))**:
+  - **Best Case (\( \Theta(n ⋅ log n) \))**:
     - Operasi pembagian array menjadi dua dan penggabungan tetap sama, terlepas dari bagaimana data awal terurut.
-  - **Worst Case (\( O(n \cdot \log n) \))**:
+  - **Worst Case (\( O(n ⋅ log n) \))**:
     - Sama dengan best case karena jumlah operasi pembagian dan penggabungan tetap konstan.
-  - **Rata-rata (\( \Theta(n \cdot \log n) \))**:
+  - **Rata-rata (\( \Theta(n ⋅ log n) \))**:
     - Efisiensi rata-rata tetap konsisten pada setiap data input karena algoritma selalu membagi dan menggabungkan dengan cara yang sama.
 
 - **Penjelasan**:
@@ -62,7 +62,7 @@ Sorting adalah salah satu operasi mendasar dalam ilmu komputer yang bertujuan un
     - Dengan setiap pembagian, rekursi mencapai kedalaman hingga **log₂(n)**.
   - **Total Kompleksitas**:
     \[
-    T(n) = O(n \cdot \log n)
+    T(n) = O(n ⋅ log n)
     \]
 
 ### 2. Bubble Sort
@@ -89,7 +89,7 @@ Sorting adalah salah satu operasi mendasar dalam ilmu komputer yang bertujuan un
 ## Perbandingan Kinerja
 | Algoritma    | Best Case (\( \Theta \)) | Worst Case (\( O \)) | Rata-rata (\( \Theta \)) |
 |--------------|--------------------------|-----------------------|--------------------------|
-| Merge Sort   | \( \Theta(n \cdot \log n) \) | \( O(n \cdot \log n) \) | \( \Theta(n \cdot \log n) \) |
+| Merge Sort   | \( \Theta(n⋅log n) \) | \( O(n ⋅ log n) \) | \( \Theta(n ⋅ log n) \) |
 | Bubble Sort  | \( \Theta(n^2) \)           | \( O(n^2) \)           | \( \Theta(n^2) \)          |
 
 ---
