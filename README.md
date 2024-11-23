@@ -13,7 +13,6 @@ Proyek ini mengimplementasikan dua algoritma sorting, yaitu **Merge Sort** dan *
 - [Persyaratan](#persyaratan)
 - [Cara Menjalankan Program](#cara-menjalankan-program)
 - [Perbandingan Kinerja](#perbandingan-kinerja)
-- [Lisensi](#lisensi)
 
 ---
 
